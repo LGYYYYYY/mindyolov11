@@ -1,0 +1,16 @@
+# COCO 2017 dataset http://cocodataset.org
+
+data:
+  dataset_name: pcb
+
+  train_set: ../train_data_coco/train.txt  # 118287 images
+  val_set: ../train_data_coco/val.txt  # 5000 images
+
+
+  nc: 5
+
+  # class names
+  names: [ 'Mouse_bite','Open_circuit','Short','Spur','Spurious_copper' ]
+
+  train_transforms: []
+  test_transforms: []
